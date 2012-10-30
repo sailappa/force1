@@ -1,0 +1,9 @@
+<apex:page standardController="worker__c"  sidebar="false"> 
+<apex:pageBlock >
+<apex:pageBlockTable value="{!worker__c}" var="a">
+<apex:column value="{!a.name}"/>
+<apex:column headerValue="AMOUNT" Value="{!a.loanamount__c}"/>
+
+</apex:pageBlockTable>
+</apex:pageBlock>
+</apex:page>

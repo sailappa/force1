@@ -1,0 +1,12 @@
+<apex:page controller="myfirstapexclass" >
+  <!-- Begin Default Content REMOVE THIS -->
+  <apex:form >
+<apex:pageBlock >
+    :<apex:inputText value="{!name}"/><br/>
+    Metasofttechsolutions:<apex:outputText value="{!newname}"/><br/>
+         <apex:pageBlockButtons >
+        <apex:commandButton value="add" action="{!add}"/>
+         </apex:pageBlockButtons>    
+         </apex:pageBlock>
+         </apex:form>
+    </apex:page>

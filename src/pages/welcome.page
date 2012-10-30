@@ -1,0 +1,18 @@
+<apex:page controller="Demo3">
+<apex:form >
+<apex:pageBlock >
+    Enter First Number:<apex:inputText value="{!Value1}"/><br/>
+    Enter Second Number:<apex:inputText value="{!value2}"/><br/>
+    Your First Number:<apex:outputText value="{!value1}"/><br/>
+    Your Second NUmber:<apex:outputText value="{!value2}"/> <br/>
+    Your Addition Value:<apex:outputText value="{!addtionValue}"/>     
+    <apex:pageBlockButtons >
+        <apex:commandButton value="ADD" action="{!ADD}"/>
+         <apex:commandButton value="Sub" action="{!Sub}"/>
+         <apex:commandButton value="Mul" action="{!MUl}"/>
+    </apex:pageBlockButtons>    
+    
+ </apex:pageBlock>
+</apex:form> 
+
+</apex:page>

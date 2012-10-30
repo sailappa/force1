@@ -1,0 +1,185 @@
+<apex:page controller="sampleCon2" showHeader="false" sidebar="false" tabStyle="account" >
+    <style>
+        .activeTab {background-color: #236FBD; color:white;
+        background-image:none}
+        .inactiveTab { background-color: lightgrey; color:black;
+        background-image:none}
+    </style>
+    <apex:tabPanel switchType="client" selectedTab="tabdetails" id="AccountTabPanel" tabClass="activeTab" inactiveTabClass="inactiveTab">
+        <apex:tab label="APPT" name="AccDetails" id="tabdetails">
+            <apex:form >
+                <apex:pageBlock >
+                    
+                                      
+                               <br> what is the name of your country?</br>
+                                                   
+                            <br>
+                            <apex:selectRadio value="{!Q1}">
+                                <apex:selectOptions value="{!A1}"/>
+                            </apex:selectRadio>     
+                          </br>
+                                                     
+                             what is the name of your state?
+                            <apex:selectRadio value="{!Q2}">
+                                <apex:selectOptions value="{!A2}"/>
+                            </apex:selectRadio>
+                             what is the name of your city?
+                            <apex:selectRadio value="{!Q3}">
+                                <apex:selectOptions value="{!A3}"/>
+                            </apex:selectRadio>
+                             what is the name of your street?
+                            <apex:selectRadio value="{!Q4}">
+                                <apex:selectOptions value="{!A4}"/>
+                            </apex:selectRadio>
+                             what is the name of your door no?
+                            <apex:selectRadio value="{!Q5}">
+                                <apex:selectOptions value="{!A5}"/>
+                            </apex:selectRadio>
+                            
+                   
+                </apex:pageBlock>
+                
+            </apex:form>
+        </apex:tab>
+       <apex:tab label="TECH" name="Contacts" id="tabContact">
+            <apex:form >
+                <apex:pageBlock >
+                    
+                                      
+                               <br> what is the name of your country?</br>
+                                                   
+                            <br>
+                            <apex:selectRadio value="{!Q1}">
+                                <apex:selectOptions value="{!A1}"/>
+                            </apex:selectRadio>     
+                          </br>
+                                                     
+                             what is the name of your state?
+                            <apex:selectRadio value="{!Q2}">
+                                <apex:selectOptions value="{!A2}"/>
+                            </apex:selectRadio>
+                             what is the name of your city?
+                            <apex:selectRadio value="{!Q3}">
+                                <apex:selectOptions value="{!A3}"/>
+                            </apex:selectRadio>
+                             what is the name of your street?
+                            <apex:selectRadio value="{!Q4}">
+                                <apex:selectOptions value="{!A4}"/>
+                            </apex:selectRadio>
+                             what is the name of your door no?
+                            <apex:selectRadio value="{!Q5}">
+                                <apex:selectOptions value="{!A5}"/>
+                            </apex:selectRadio>
+                            
+                </apex:pageBlock>
+                
+            </apex:form>
+        </apex:tab>
+        <apex:tab label="JAVA" name="Opportunities" id="tabOpp">
+            <apex:form >
+                <apex:pageBlock >
+                    
+                                      
+                               <br> what is the name of your country?</br>
+                                                   
+                            <br>
+                            <apex:selectRadio value="{!Q1}">
+                                <apex:selectOptions value="{!A1}"/>
+                            </apex:selectRadio>     
+                          </br>
+                                                     
+                             what is the name of your state?
+                            <apex:selectRadio value="{!Q2}">
+                                <apex:selectOptions value="{!A2}"/>
+                            </apex:selectRadio>
+                             what is the name of your city?
+                            <apex:selectRadio value="{!Q3}">
+                                <apex:selectOptions value="{!A3}"/>
+                            </apex:selectRadio>
+                             what is the name of your street?
+                            <apex:selectRadio value="{!Q4}">
+                                <apex:selectOptions value="{!A4}"/>
+                            </apex:selectRadio>
+                             what is the name of your door no?
+                            <apex:selectRadio value="{!Q5}">
+                                <apex:selectOptions value="{!A5}"/>
+                            </apex:selectRadio>
+                            
+                </apex:pageBlock>
+                
+            </apex:form>
+        </apex:tab>
+        <apex:tab label="SQL" name="OpenActivities" id="tabOpenAct">
+            <apex:form >
+                <apex:pageBlock >
+                    
+                                      
+                               <br> what is the name of your country?</br>
+                                                   
+                            <br>
+                            <apex:selectRadio value="{!Q1}">
+                                <apex:selectOptions value="{!A1}"/>
+                            </apex:selectRadio>     
+                          </br>
+                                                     
+                             what is the name of your state?
+                            <apex:selectRadio value="{!Q2}">
+                                <apex:selectOptions value="{!A2}"/>
+                            </apex:selectRadio>
+                             what is the name of your city?
+                            <apex:selectRadio value="{!Q3}">
+                                <apex:selectOptions value="{!A3}"/>
+                            </apex:selectRadio>
+                             what is the name of your street?
+                            <apex:selectRadio value="{!Q4}">
+                                <apex:selectOptions value="{!A4}"/>
+                            </apex:selectRadio>
+                             what is the name of your door no?
+                            <apex:selectRadio value="{!Q5}">
+                                <apex:selectOptions value="{!A5}"/>
+                            </apex:selectRadio>
+                            
+                   
+                </apex:pageBlock>
+                
+            </apex:form>
+        </apex:tab>
+        <apex:tab label="PROG" name="NotesAndAttachments" id="tabNoteAtt">
+            <apex:form >
+                <apex:pageBlock >
+                    
+                                      
+                               <br> what is the name of your country?</br>
+                                                   
+                            <br>
+                            <apex:selectRadio value="{!Q1}">
+                                <apex:selectOptions value="{!A1}"/>
+                            </apex:selectRadio>     
+                          </br>
+                                                     
+                             what is the name of your state?
+                            <apex:selectRadio value="{!Q2}">
+                                <apex:selectOptions value="{!A2}"/>
+                            </apex:selectRadio>
+                             what is the name of your city?
+                            <apex:selectRadio value="{!Q3}">
+                                <apex:selectOptions value="{!A3}"/>
+                            </apex:selectRadio>
+                             what is the name of your street?
+                            <apex:selectRadio value="{!Q4}">
+                                <apex:selectOptions value="{!A4}"/>
+                            </apex:selectRadio>
+                             what is the name of your door no?
+                            <apex:selectRadio value="{!Q5}">
+                                <apex:selectOptions value="{!A5}"/>
+                            </apex:selectRadio>
+                            <apex:pageBlockButtons >
+                <apex:commandButton value="submit" action="{!submit}"/>
+                </apex:pageBlockButtons>
+                   
+                </apex:pageBlock>
+                
+            </apex:form>
+        </apex:tab>
+     </apex:tabPanel>
+</apex:page>

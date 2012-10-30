@@ -1,0 +1,12 @@
+<apex:page sidebar="false">
+<apex:pageBlock title="A Block Title">
+<apex:pageBlockSection title="A Section Title">
+I'm three components deep!
+{! IF ( CONTAINS('salesforce.com','force.com'), 'Yep', 'Nah') }
+{! IF ( DAY(TODAY()) > 14, 'After the 14th', 'On or before the 14th') }
+</apex:pageBlockSection>
+<apex:pageBlockSection title="A New Section">
+This is another section.
+</apex:pageBlockSection>
+</apex:pageBlock>
+</apex:page>
