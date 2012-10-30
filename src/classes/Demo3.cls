@@ -47,4 +47,8 @@ public class Demo3
         }
         
     }
+    public static sam()
+    {
+    }
+    }
     }
